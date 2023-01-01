@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="fbicon.png"/>
+    <title>Facebook - log in or sign up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body>
-    <h1>Document</h1>
+
+<body class="bg-gray-100">
+
+    <div class="container flex items-center ">
+        <div class="left ml-60 w-2/6 font-normal text-3xl">
+            <img class="w-72" src="fb.svg" alt="">
+            <p class="px-7">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="right flex mt-32 flex-col ml-24 bg-white p-4 rounded-xl text-base font-normal relative drop-shadow-xl">
+            <input class="mb-5 py-3 px-4 w-96 h-14 border-1 border border-gray-200 rounded-lg outline-blue-400 "
+                type="text" placeholder="Email address or phone number" />
+            <input class="mb-5 py-3 px-4 w-96 h-14 border-1 border border-gray-200 rounded-lg outline-blue-400"
+                type="password" placeholder="Password" />
+            <button class="btn mb-5 py-3 w-96 bg-blue-600 hover:bg-blue-700 text-white text-xl font-bold rounded-lg">Log
+                in</button>
+            <a class=" text-blue-600 mx-28 mb-5 hover:underline " href="">Forgotten password?</a>
+            <hr>
+            <button
+                class="mt-5 mx-20 py-3 w-56 rounded-lg hover:bg-green-700  bg-green-600  text-white text-base font-bold">
+                Create New Account</button>
+            <span class="absolute my-96"><span class="font-bold">Create a Page </span>for a celebrity, brand or
+                business. </span>
+        </div>
+    </div>
 </body>
-</html>;
+
+</html>
